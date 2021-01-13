@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: center;
+    background-color: #333;
+}
+
+header {
+    height: 45rem;
+}
+
+header .bg-img {
+    position: absolute;
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2017/11/03/1148372/fafcc0e87095393bc6d585d305c8d2a7-700.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 11rem;
+    padding-bottom: 0;
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 1.8rem;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    padding: 1.2rem 2.8rem;
+    border: 2px solid #666;
+    transition: all .3s;
+    background: #333;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem;
+    padding-top: 0;
+}
