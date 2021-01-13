@@ -64,3 +64,35 @@ p {
     padding: 1.6rem;
     padding-top: 0;
 }
+
+
+/*Sec-a*/
+
+#sec-a {
+    padding: 2rem;
+    background: white;
+    color: #333;
+}
+
+#sec-a p {
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#sec-b {
+    padding: 3rem;
+}
+
+#sec-b li {
+    background: white;
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+#sec-b ul {
+    list-style: none;
+}
